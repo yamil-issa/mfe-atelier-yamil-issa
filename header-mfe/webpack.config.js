@@ -1,7 +1,7 @@
-const { ModuleFederationPlugin } = require('@module-federation/enhanced/webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+import { ModuleFederationPlugin } from '@module-federation/enhanced/webpack';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-module.exports = {
+export default {
   entry: './src/main.tsx',
   mode: 'development',
   devServer: {
