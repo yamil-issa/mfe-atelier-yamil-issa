@@ -1,0 +1,12 @@
+node_modules/
+.vite/
+
+.env.local
+.env.*.local
+
+.idea/
+.vscode/
+*.suo
+
+dist/
+build/
